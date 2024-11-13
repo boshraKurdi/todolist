@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #eee;
+  color: #fff;
+}
+.text{
+color: brown;
+}
+.container{
+  width: 63%;
+  margin: auto;
+}
+.listItems{
+  background-color: #fff;
+  color: #46529d;
+  box-shadow: 5px 5px 5px #aaa;
+  border-radius: 8px;
+}
+.listItems p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+.listItems span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+.listItems span .title{
+  background-color: #2ebaee;
+  color: #fff;
+}
+.listItems span.name {
+  width: 45%;
+} 
+form input[type=text]{
+width: 60%;
+}
+.listItems span.age ,
+form input[type=number]{
+  width: 30%;
+} 
+.listItems span.event ,
+button{
+  width: 10%;
+} 
+.listItems span.event{
+    color: #fff;
+    cursor: pointer;
+    font-size: 11px;
+    border-radius: 8px;
+    margin: 0 5px;
+    border: 0;
+    padding: 8px 0px;
+}
+.listItems span.iconD{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.listItems span.iconE{
+  background-color: rgba(0, 128, 0, 0.5);
+}
+.listItems span.event:hover{
+  opacity: 0.7;
+}
+form{
+  display: flex;
+  margin: 50px 0;
+  width: 100%;
+}
+.header{
+  border-bottom: 1px solid #aaa;
+  padding: 10px 0;
+}
+.body{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+form input{
+  padding: 10px;
+  background-color: #fff;
+  border: transparent;
+  border: 1px solid #ccc;
+}
+form button{
+  background-color: #2ebaee;
+  border: 1px solid #2ebaee;
+  color: #fff;
+  cursor: pointer;
+  width: 11%;
+}
+@media (max-width: 676px){
+  .container{
+    width: fit-content;
+    padding: 1rem;
+  }
+}
